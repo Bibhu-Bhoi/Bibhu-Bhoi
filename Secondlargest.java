@@ -1,6 +1,6 @@
 public class Secondlargest {
     public static void main(String[] args) {
-        int [] nums = new int[]{3,2,1,5,2};
+        int [] nums = new int[]{2,3,2,1,5,2};
         int largest = nums[0];
         for(int i=0;i < nums.length;i++){
             if(nums[i]>largest){
